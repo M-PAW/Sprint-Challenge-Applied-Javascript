@@ -25,3 +25,24 @@ function tabFunc(array) {
         entryTab.append(tab);
     });
 }
+
+// const entryTab = document.querySelector('.topics');
+// axios.get('https://lambda-times-backend.herokuapp.com/topics')
+//     .then(response => {
+//         data.forEach( item => {
+//             console.log(item)
+//             tabFunc(item)
+//         })
+        
+//     })
+//     .catch(err => {
+//         console.log('tabs/index.js has an error. ',err);
+//     });
+
+// function tabFunc(array) {
+//         const tab = document.createElement('div');
+//         tab.classList.add('tab');
+//         tab.textContent = data;
+//         entryTab.append(tab);
+
+// }
