@@ -67,7 +67,7 @@ function createArticle(artObj){
     console.log('textContent: ', artObj)
     headline.textContent = artObj.headline;
     img.src = artObj.authorPhoto;
-    span.textContent = artObj.authorName;
+    span.textContent = `By ${artObj.authorName}`;
     console.log('End Function')
 
 
