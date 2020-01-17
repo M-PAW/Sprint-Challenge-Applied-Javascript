@@ -29,10 +29,11 @@ axios.get('https://lambda-times-backend.herokuapp.com/articles')
             entryPoint1.append(createArticle(value))
         })
     })
-        // 
-        
-    
+        //   
 })
+.catch(err => {
+    console.log('cards/index.js has an error. ',err);
+});
 
 
 const entryPoint1 = document.querySelector('.cards-container');
